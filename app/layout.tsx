@@ -49,7 +49,6 @@ export default function RootLayout({
           property="og:description"
           content="Machine Learning Engineer with 3+ years of experience in the FinTech industry. Skilled in implementing AI-based microservices using Python, SQL, Javascript, Docker, and AWS."
           />
-        <meta property="og:url" content="https://jaynanduri.github.io/portfolio-website/" />
         <meta property="og:type" content="website" />
       </head>
       <body
