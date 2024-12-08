@@ -33,7 +33,7 @@ const StyledPic: React.FC = () => {
           transition={{ duration: 0.5 }}
         >
           <Image
-            src="/pics/photo.jpg"
+            src="./pics/photo.jpg"
             alt="Profile"
             width={1600}
             height={900}
