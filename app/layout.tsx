@@ -49,10 +49,10 @@ export default function RootLayout({
           property="og:description"
           content="Machine Learning Engineer with 3+ years of experience in the FinTech industry. Skilled in implementing AI-based microservices using Python, SQL, Javascript, Docker, and AWS."
           />
-        <meta property="og:url" content="https://jayantha.dev" />
+        <meta property="og:url" content="https://www.jayantha-nanduri.py" />
         <script dangerouslySetInnerHTML={{
           __html: `
-            if (window.location.href === "https://jaynanduri.github.io/portfolio-website/") {
+            if (window.location.href === "https://portfolio-website-jayantha-nanduris-projects.vercel.app/") {
               window.location.replace("https://www.jayantha-nanduri.py");
             }
           `
