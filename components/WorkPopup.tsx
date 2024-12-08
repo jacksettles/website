@@ -10,8 +10,8 @@ interface WorkPopupProps {
 }
 
 const WorkPopup = forwardRef<HTMLDivElement, WorkPopupProps>(({ active, setActive }, ref) => {
-  if (!active) return null;
   const [description, setDescription] = React.useState<string | null>(null);
+  if (!active) return null;
 
   React.useEffect(() => {
     const loadDescription = async () => {
