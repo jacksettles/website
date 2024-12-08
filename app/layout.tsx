@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.jayantha-nanduri.py" />
         <script dangerouslySetInnerHTML={{
           __html: `
-            if (window.location.href === "https://portfolio-website-jayantha-nanduris-projects.vercel.app/") {
+            if (window.location.href === "https://jaynanduri.github.io/portfolio-website/") {
               window.location.replace("https://www.jayantha-nanduri.py");
             }
           `
