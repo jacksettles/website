@@ -28,14 +28,14 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-             नमस्कार 🙏!! I'm Jayantha Nanduri, an aspiring machine learning engineer passionate about creating scalable AI-driven solutions. I focus on developing microservices and data pipelines and excel at designing, implementing, and optimizing intelligent systems that solve real-world challenges. Leveraging my expertise in container technologies, I efficiently deploy scalable applications on cloud platforms, ensuring high availability and seamless integration. My commitment to advancing machine learning capabilities reflects my drive for excellence in delivering impactful, future-ready technologies.
+             नमस्कार 🙏!! I&apos;m Jayantha Nanduri, an aspiring machine learning engineer passionate about creating scalable AI-driven solutions. I focus on developing microservices and data pipelines and excel at designing, implementing, and optimizing intelligent systems that solve real-world challenges. Leveraging my expertise in container technologies, I efficiently deploy scalable applications on cloud platforms, ensuring high availability and seamless integration. My commitment to advancing machine learning capabilities reflects my drive for excellence in delivering impactful, future-ready technologies.
             </p>
             <p>
               <FaCode className="inline-block mr-2" /> 
 
-              After spending three years as a machine learning professional, I decided to return to school to pursue my master's degree. This journey significantly enhanced my skills as a problem-solver and critical thinker. I deepened my understanding of designing efficient algorithms, a vital aspect of building scalable systems. Along the way, I developed a passion for coding challenges, turning them into enjoyable and rewarding opportunities to sharpen my skills.            </p>
+              After spending three years as a machine learning professional, I decided to return to school to pursue my master&apos;s degree. This journey significantly enhanced my skills as a problem-solver and critical thinker. I deepened my understanding of designing efficient algorithms, a vital aspect of building scalable systems. Along the way, I developed a passion for coding challenges, turning them into enjoyable and rewarding opportunities to sharpen my skills.            </p>
             <p>
-              When I'm not crunching numbers or coding, you might find me:
+              When I&apos;m not crunching numbers or coding, you might find me:
             </p>
             <ul className="list-disc pl-5 space-y-2">
               <li><SiShowtime className="inline-block mr-2" /> Watching anime (Naruto and Openpiece are my all-time favourites)</li>
@@ -43,7 +43,7 @@ const AboutMe: React.FC = () => {
               <li><GiSoccerKick className="inline-block mr-2" /> Playing soccer (GGMU!!!)</li>
             </ul>
             <p>
-            Currently, I'm deeply immersed in exploring Large Language Models (LLMs) while indulging in web development as a side hobby. I enjoy staying updated on the latest technical innovations from leading tech companies, which constantly inspire me to enhance my skills. As a firm believer in lifelong learning and self-improvement, I embrace every opportunity to grow and expand my knowledge, no matter the circumstances.            </p>
+            Currently, I&apos;m deeply immersed in exploring Large Language Models (LLMs) while indulging in web development as a side hobby. I enjoy staying updated on the latest technical innovations from leading tech companies, which constantly inspire me to enhance my skills. As a firm believer in lifelong learning and self-improvement, I embrace every opportunity to grow and expand my knowledge, no matter the circumstances.            </p>
           </CardContent>
         </Card>
       </motion.div>

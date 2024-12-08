@@ -11,15 +11,24 @@ interface WorkPopupProps {
 
 const WorkPopup = forwardRef<HTMLDivElement, WorkPopupProps>(({ active, setActive }, ref) => {
   const [description, setDescription] = React.useState<string | null>(null);
-  if (!active) return null;
-
   React.useEffect(() => {
-    const loadDescription = async () => {
-      const desc = await active.description;
-      setDescription(desc);
-    };
-    loadDescription();
+    if (active) {
+      const loadDescription = async () => {
+        try {
+          const desc = await active.description;
+          setDescription(desc);
+        } catch (error) {
+          console.error('Failed to load description:', error);
+          setDescription('Failed to load description');
+        }
+      };
+
+      loadDescription();
+    }
   }, [active]);
+
+  if (!active) return null;
+  
   return (
     <AnimatePresence>
       <motion.div
