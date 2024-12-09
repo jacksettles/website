@@ -7,7 +7,6 @@ import { SiShowtime } from "react-icons/si";
 import { GiSoccerKick } from "react-icons/gi";
 import { FaLightbulb, FaCode, FaBookReader } from 'react-icons/fa';
 import { useScrollSection } from '@/hooks/use-scroll-section';
-import { CardSpotlight } from '../ui/card-spotlight';
 
 const AboutMe: React.FC = () => {
   const { ref, isVisible } = useScrollSection();
@@ -38,7 +37,7 @@ const AboutMe: React.FC = () => {
               When I&apos;m not crunching numbers or coding, you might find me:
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><SiShowtime className="inline-block mr-2" /> Watching anime (Naruto and Openpiece are my all-time favourites)</li>
+              <li><SiShowtime className="inline-block mr-2" /> Watching anime (Naruto and Onepiece are my all-time favourites)</li>
               <li><FaBookReader className="inline-block mr-2" /> Reading books (currently reading Atomic Habits)</li>
               <li><GiSoccerKick className="inline-block mr-2" /> Playing soccer (GGMU!!!)</li>
             </ul>
