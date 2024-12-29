@@ -17,14 +17,14 @@ const Terminal = () => {
 
   const codeLines: CodeLines = useMemo(() => ({
     python: [
-      'print("Hello, World! 👋 I\'m Jayantha Nanduri")',
-      'print("Current status: CS graduate student at Northeastern University")',
-      'print("Professional Summary: Machine Learning Engineer with 3+ years of experience in the FinTech industry. Skilled in implementing AI-based microservices using Python, SQL, Javascript, Docker, and AWS.")'
+      'print("Hi there 👋 My name is Jack Settles")',
+      'print("I am a PhD student at the Universty of Georgia studying AI")',
+      'print("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.")'
     ],
     javascript: [
-      'console.log("Hello, World! 👋 I\'m Jayantha Nanduri");',
-      'console.log("Current status: CS graduate student at Northeastern University");',
-      'console.log("Professional Summary: Machine Learning Engineer with 3+ years of experience in the FinTech industry. Skilled in implementing AI-based microservices using Python, SQL, Javascript, Docker, and AWS.");'
+      'console.log("Hi there 👋 My name is Jack Settles");',
+      'console.log("I am a PhD student at the Universty of Georgia studying AI");',
+      'console.log("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.");'
     ]
   }), []);
 
@@ -121,7 +121,7 @@ const Terminal = () => {
           transition={{ delay: 1, duration: 0.4 }}
         >
           <RiTerminalBoxFill className="text-primary mr-2" />
-          <span className="text-primary">jay@portfolio:~$</span>
+          <span className="text-primary">jack@portfolio:~$</span>
           <span className="text-secondary ml-2">&gt;&gt;</span>
           <span className='text-muted-foreground'>{activeTab}</span>
         </motion.div>

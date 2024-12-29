@@ -1,5 +1,4 @@
-import MUIcon from "@/components/icons/MUIcon";
-import NortheasternIcon from "@/components/icons/NortheasternIcon";
+import UGAIcon from "@/components/icons/UGAIcon";
 
 export interface EducationField {
     university: string;
@@ -11,18 +10,25 @@ export interface EducationField {
 
 export const educations: EducationField[] = [
     {
-        university: "Northeastern University, Boston",
-        degree: "Master of Science in Computer Science",
-        duration: "Jan 2023 - May 2025",
-        year: "2023-2025",
-        logo: NortheasternIcon
+        university: "University of Georgia, Athens, GA",
+        degree: "Doctor of Philosophy in Artificial Intelligence",
+        duration: "Jan 2025 - TBD",
+        year: "2025-TBD",
+        logo: UGAIcon
     },
     {
-        university: "Mahindra University, India",
-        degree: "Bachelor of Technology, Computer Science and Engineering",
-        duration: "Aug 2016 - Sep 2020",
-        year: "2016-2020",
-        logo: MUIcon
+        university: "University of Georgia, Athens, GA",
+        degree: "Master of Science in Artificial Intelligence",
+        duration: "Aug 2022 - Dec 2024",
+        year: "2022-2024",
+        logo: UGAIcon
+    },
+    {
+        university: "University of Georgia, Athens, GA",
+        degree: "Bachelor of Arts in Philosophy & Cognitive Science; Minor in Linguistics",
+        duration: "Aug 2017 - May 2021",
+        year: "2017-2021",
+        logo: UGAIcon
     },
 ];
     

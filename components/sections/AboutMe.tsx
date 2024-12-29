@@ -3,9 +3,9 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import StyledPic from '../Styledpic';
-import { SiShowtime } from "react-icons/si";
-import { GiSoccerKick } from "react-icons/gi";
-import { FaLightbulb, FaCode, FaBookReader } from 'react-icons/fa';
+import { GiWeightLiftingUp } from "react-icons/gi";
+import { ImHeadphones } from "react-icons/im";
+import { FaLightbulb, FaCode, FaBookReader, FaFootballBall } from 'react-icons/fa';
 import { useScrollSection } from '@/hooks/use-scroll-section';
 
 const AboutMe: React.FC = () => {
@@ -27,22 +27,22 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-             नमस्कार 🙏!! I&apos;m Jayantha Nanduri, an aspiring machine learning engineer passionate about creating scalable AI-driven solutions. I focus on developing microservices and data pipelines and excel at designing, implementing, and optimizing intelligent systems that solve real-world challenges. Leveraging my expertise in container technologies, I efficiently deploy scalable applications on cloud platforms, ensuring high availability and seamless integration. My commitment to advancing machine learning capabilities reflects my drive for excellence in delivering impactful, future-ready technologies.
+              My name is Jack Settles, and I am an aspiring machine learning engineer. My background is in philosophy and cognitive science where I focused on studying language from as many different perspectives as possible. I am deeply passionate about how language can encode meaning, and how that meaning is conveyed from one person to the next. My research focuses on language modeling with a goal of training LLMs to understand language in a way that approximates how humans acquire language.
             </p>
             <p>
               <FaCode className="inline-block mr-2" /> 
-
-              After spending three years as a machine learning professional, I decided to return to school to pursue my master&apos;s degree. This journey significantly enhanced my skills as a problem-solver and critical thinker. I deepened my understanding of designing efficient algorithms, a vital aspect of building scalable systems. Along the way, I developed a passion for coding challenges, turning them into enjoyable and rewarding opportunities to sharpen my skills.            </p>
+              I have always possessed diverse interests, and I have never been able to contain my curiosity for life. Philosophy provided a platform for me to ask questions about things that people might typically overlook, such as the nature of God, the essence of a just society, or the role of meaning in life. By "meaning", I intentionally mean (!) both what people might call purpose, as well as semantic meaning in language. I found in my studies that these things are not entirely separable: semantic meaning allows us to convey information to others, and living life with others provides a greater purpose for our actions. This love for language led me to studying artificial intelligence and computational linguistics. If we can teach machines language in conditions similar to humans, then perhaps we can learn more about how humans possess it in the first place.        </p>
             <p>
-              When I&apos;m not crunching numbers or coding, you might find me:
+              When I am not learning new programming skills, you might find me:
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li><SiShowtime className="inline-block mr-2" /> Watching anime (Naruto and Onepiece are my all-time favourites)</li>
-              <li><FaBookReader className="inline-block mr-2" /> Reading books (currently reading Atomic Habits)</li>
-              <li><GiSoccerKick className="inline-block mr-2" /> Playing soccer (GGMU!!!)</li>
+              <li><GiWeightLiftingUp className="inline-block mr-2" /> Lifting weights (I was a personal trainer for nearly 6 years and played football growing up)</li>
+              <li><FaBookReader className="inline-block mr-2" /> Reading philosophy or anything about science (I am particularly interested in neuroscience and psychopharmacology)</li>
+              <li><FaFootballBall className="inline-block mr-2" /> Watching football (Go Dawgs/Falcons)</li>
+              <li><ImHeadphones className="inline-block mr-2" /> Listening to music. My favorites: Van Morrison, Beach House, Max Richter, Marvin Gaye, Mulatu Astatke, Michael Kiwanuka, Sturgill Simpson, Palace, Frank Ocean, Outkast, the Wu-Tang Clan, Denzel Curry, Kendrick Lamar, Mac Miller, SZA, Maggie Rogers, the Fugees, Erykah Badu.... I could go on forever</li>
             </ul>
             <p>
-            Currently, I&apos;m deeply immersed in exploring Large Language Models (LLMs) while indulging in web development as a side hobby. I enjoy staying updated on the latest technical innovations from leading tech companies, which constantly inspire me to enhance my skills. As a firm believer in lifelong learning and self-improvement, I embrace every opportunity to grow and expand my knowledge, no matter the circumstances.            </p>
+            My current research is about training language models on the structure of language, rather than just computing the probability of the next word given an input sequence of words (or tokens). I am also nterested in how microtubules within cells self organize and proviide structure to the cell, as well as facilitate information passnig between organelles.            </p>
           </CardContent>
         </Card>
       </motion.div>

@@ -12,7 +12,7 @@
   
   <!-- Text with gradient fill -->
   <text x="50" y="55" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="url(#grad)">
-    <tspan>jayantha</tspan>
+    <tspan>jack</tspan>
     <tspan font-family="monospace" font-size="36">.py</tspan>
   </text>
 </svg>

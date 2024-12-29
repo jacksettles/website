@@ -3,24 +3,24 @@ import React, { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiApachekafka, SiPytorch, SiNumpy, SiPandas, SiScikitlearn, 
+import { SiApachekafka, SiPytorch, SiNumpy, SiPandas, SiScikitlearn, SiStreamlit,
   SiLangchain, SiHuggingface, SiMongodb, SiGraphql, SiJenkins, SiKubernetes, SiMlflow } from "react-icons/si";
-import { DiSpark } from "react-icons/di";
-import { FaGolang } from "react-icons/fa6";
-import { VscAzure } from "react-icons/vsc";
+// import { DiSpark } from "react-icons/di";
+// import { FaGolang } from "react-icons/fa6";
+// import { VscAzure } from "react-icons/vsc";
 import { FaPython, FaDatabase, FaChartBar, FaGithub, FaJava, FaDocker, FaAws } from 'react-icons/fa';
 
 const SkillsGrid = () => {
   const skills = useMemo(() => [
     { icon: <FaPython />, name: 'Python' },
-    { icon: <FaDatabase />, name: 'SQL' },
-    { icon: <FaGolang />, name: 'Go'},
+    // { icon: <FaDatabase />, name: 'SQL' },
+    // { icon: <FaGolang />, name: 'Go'},
     { icon: <FaJava />, name: 'Java' },
     { icon: <BiLogoTypescript />, name: 'TypeScript' },
     { icon: <RiNextjsFill />, name: 'Next.js' },
-    { icon: <SiGraphql />, name: 'GraphQL' },
-    { icon: <SiApachekafka />, name: 'Kafka'},
-    { icon: <DiSpark />, name: "Spark"},
+    // { icon: <SiGraphql />, name: 'GraphQL' },
+    // { icon: <SiApachekafka />, name: 'Kafka'},
+    // { icon: <DiSpark />, name: "Spark"},
     { icon: <SiNumpy />, name: "Numpy"},
     { icon: <SiPandas />, name: "Pandas"},
     { icon: <SiHuggingface />, name: "Hugging Face"},
@@ -28,14 +28,15 @@ const SkillsGrid = () => {
     { icon: <SiLangchain />, name: "LangChain"},
     { icon: <SiScikitlearn />, name: "Scikit-learn"},
     { icon: <SiMlflow />, name: 'MLflow' },
-    { icon: <SiMongodb />, name: "MongoDB"},
-    { icon: <FaChartBar />, name: 'Power BI' },
+    // { icon: <SiMongodb />, name: "MongoDB"},
+    // { icon: <FaChartBar />, name: 'Power BI' },
     { icon: <FaGithub />, name: 'Git' },
     { icon: <FaDocker />, name: 'Docker'},
-    { icon: <SiKubernetes />, name: 'Kubernetes' },
+    // { icon: <SiKubernetes />, name: 'Kubernetes' },
     { icon: <SiJenkins />, name: 'Jenkins' },
     { icon: <FaAws />, name: 'AWS' },
-    { icon: <VscAzure />, name: 'Azure' },
+    { icon: <SiStreamlit/>, name: 'Streamlit'},
+    // { icon: <VscAzure />, name: 'Azure' },
     
   ], []);
 

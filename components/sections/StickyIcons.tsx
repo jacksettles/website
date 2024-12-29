@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import { LeetcodeIcon } from 'hugeicons-react'
 import { motion, useAnimation } from 'framer-motion';
 import { useMediaQuery } from '@/hooks/use-media-query';
 
@@ -16,10 +15,8 @@ const StickyIcons: React.FC = () => {
   const isLargeScreen = useMediaQuery('(min-width: 768px)');
 
   const socialLinks: IconLinkProps[] = [
-    { icon: FaGithub, href: 'https://github.com/jaynanduri' },
-    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/jayantha-nanduri/' },
-    { icon: FaInstagram, href: 'https://www.instagram.com/jay_nanduri/' },
-    { icon: LeetcodeIcon, href: 'https://leetcode.com/u/nandurij98/'}
+    { icon: FaGithub, href: 'https://github.com/jacksettles' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/john-taylor-settles/' },
   ];
 
   useEffect(() => {
@@ -76,10 +73,10 @@ const StickyIcons: React.FC = () => {
           animate={contentControls}
         >
           <a
-            href="mailto:jayantha.nanduri@gmail.com"
+            href="mailto:johntaylorsettles@gmail.com"
             className="text-foreground hover:text-primary transition-colors duration-200 pb-2"
           >
-            jayantha.nanduri@gmail.com
+            johntaylorsettles@gmail.com
           </a>
         </motion.div>
         <motion.div 

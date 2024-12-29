@@ -1,17 +1,20 @@
 // data/workExperience.ts
-import { FaPython, FaChartBar, FaAws, FaChalkboardTeacher, FaJava} from 'react-icons/fa';
-import { SiApachekafka, SiApachespark, SiBoehringeringelheim, SiDjango, SiDocker, SiJenkins, SiLangchain, SiMlflow, SiOpenai, SiPandas, SiPostgresql, SiPytorch, SiRedis, SiStreamlit, SiTableau } from 'react-icons/si';
+import { FaPython, FaAws, FaJava} from 'react-icons/fa';
+import { FaMeta } from "react-icons/fa6";
+import { IoFitnessSharp } from "react-icons/io5";
+import { IoMdFitness } from "react-icons/io";
+import { SiOllama, SiScikitlearn, SiBoehringeringelheim, SiDocker, SiJenkins, SiLangchain, SiOpenai, SiPandas, SiPytorch, SiFastapi, SiStreamlit } from 'react-icons/si';
 import React from 'react';
 import rehypeStringify from 'rehype-stringify'
 import remarkGfm from 'remark-gfm'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
-import NortheasternIcon from '@/components/icons/NortheasternIcon';
-import { internshipWorkAtBI, workAtJocata, workExpAtNEU } from './jobDesc';
+import UGAIcon from '@/components/icons/UGAIcon';
+import { internshipWorkAtBI, workAtOTF, workExpAtUGA } from './jobDesc';
 import { RiNextjsFill } from 'react-icons/ri';
 import BILogo from '@/components/icons/BILogo';
-import JocataIcon from '@/components/icons/JocataIcon';
+import OTFIcon from '@/components/icons/OTFIcon';
 
 
 export interface Skill {
@@ -44,57 +47,49 @@ export const workExperiences: WorkExperience[] = [
 {
     company: "Boehringer Ingelheim",
     position: "IT Advanced Applications Co-op",
-    duration: "Aug 2024 - Jan 2024",
+    duration: "Jul 2024 - Dec 2024",
     year: "2024",
     description: convertMarkDown(internshipWorkAtBI),
     skills: [
-      { name: "Python", icon: FaPython },
-      { name: "Streamlit", icon: SiStreamlit },
+      { name: "Python", icon: FaPython},
+      { name: "Pandas", icon: SiPandas},
+      { name: "PyTorch", icon : SiPytorch},
+      { name: "Streamlit", icon: SiStreamlit},
+      { name: "Scikit-learn", icon: SiScikitlearn},
+      { name: "FastAPI", icon: SiFastapi},
       { name: "Next.js", icon:  RiNextjsFill},
-      { name: "PowerBI", icon: FaChartBar},
-      { name: "MLFlow", icon: SiMlflow},
-      { name: "Kafka", icon: SiApachekafka},
       { name: "LangChain", icon: SiLangchain},
+      { name: "Meta", icon: FaMeta},
+      { name: "Ollama", icon: SiOllama},
       { name: "OpenAI", icon: SiOpenai},
-      { name: "PostgreSQL", icon: SiPostgresql},
       { name: "Docker", icon: SiDocker},
       { name: "Jenkins", icon: SiJenkins},
-      { name: "AWS", icon: FaAws},
     ],
     logo: BILogo,
   },
   {
-    company: "Northeastern University",
-    position: "Graduate Teaching Assistant",
-    duration: "Aug 2023 - Jul 2024",
+    company: "University of Georgia",
+    position: "Research Lab Assistant",
+    duration: "Jun 2023 - Apr 2024",
     year: "2023-2024",
-    description: convertMarkDown(workExpAtNEU),
+    description: convertMarkDown(workExpAtUGA),
     skills: [
-      { name: "Teaching", icon: FaChalkboardTeacher },
       { name: "Python", icon: FaPython },
-      { name: "Java", icon: FaJava },
+      { name: "Pandas", icon: SiPandas},
     ],
-    logo: NortheasternIcon
+    logo: UGAIcon
   },
   {
-    company: "Jocata",
-    position: "Machine Learning Engineer",
-    duration: "Jan 2020 - Dec 2022",
-    year: "2020-2023",
-    description: convertMarkDown(workAtJocata),
+    company: "Orangetheory Fitness",
+    position: "Head Fitness Coach",
+    duration: "Oct 2017 - Dec 2023",
+    year: "2017-2023",
+    description: convertMarkDown(workAtOTF),
     skills: [
-      { name: "Python", icon: FaPython },
-      { name: "Django", icon: SiDjango },
-      { name: "Pandas", icon: SiPandas},
-      { name: "Pytorch", icon:  SiPytorch},
-      { name: "PySpark", icon: SiApachespark},
-      { name: "MLFlow", icon: SiMlflow},
-      { name: "Redis", icon: SiRedis},
-      { name: "PostgreSQL", icon: SiPostgresql},
-      { name: "Docker", icon: SiDocker},
-      { name: "AWS", icon: FaAws},
+      { name: "Fitness", icon: IoMdFitness },
+      { name: "Health", icon: IoFitnessSharp},
     ],
-    logo: JocataIcon
+    logo: OTFIcon
   },
 ];
 
