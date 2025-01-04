@@ -27,7 +27,7 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-              My name is Jack Settles, and I am an aspiring machine learning engineer. My background is in philosophy and cognitive science where I focused on studying language from as many different perspectives as possible. I am deeply passionate about how language can encode meaning, and how that meaning is conveyed from one person to the next. My research focuses on language modeling with a goal of training LLMs to understand language in a way that approximates how humans acquire language.
+              My name is Jack Settles, and I am a machine learning engineer. My background is in philosophy and cognitive science where I focused on studying language from as many different perspectives as possible. I am deeply passionate about how language can encode meaning, and how that meaning is conveyed from one person to the next. My research focuses on language modeling with a goal of training LLMs to understand language in a way that approximates how humans acquire language.
             </p>
             <p>
               <FaCode className="inline-block mr-2" /> 
@@ -39,10 +39,10 @@ const AboutMe: React.FC = () => {
               <li><GiWeightLiftingUp className="inline-block mr-2" /> Lifting weights (I was a personal trainer for nearly 6 years and played football growing up)</li>
               <li><FaBookReader className="inline-block mr-2" /> Reading philosophy or anything about science (I am particularly interested in neuroscience and psychopharmacology)</li>
               <li><FaFootballBall className="inline-block mr-2" /> Watching football (Go Dawgs/Falcons)</li>
-              <li><ImHeadphones className="inline-block mr-2" /> Listening to music. My favorites: Van Morrison, Beach House, Max Richter, Marvin Gaye, Mulatu Astatke, Michael Kiwanuka, Sturgill Simpson, Palace, Frank Ocean, Outkast, the Wu-Tang Clan, Denzel Curry, Kendrick Lamar, Mac Miller, SZA, Maggie Rogers, the Fugees, Erykah Badu.... I could go on forever</li>
+              <li><ImHeadphones className="inline-block mr-2" /> Listening to music. My favorites: Van Morrison, Beach House, Max Richter, Marvin Gaye, Peter Cat Recording Co., Khruangbin, Mulatu Astatke, Michael Kiwanuka, Sturgill Simpson, Palace, Frank Ocean, Outkast, the Wu-Tang Clan, Denzel Curry, Kendrick Lamar, Mac Miller, SZA, Maggie Rogers, the Fugees, Erykah Badu.... I could go on forever</li>
             </ul>
             <p>
-            My current research is about training language models on the structure of language, rather than just computing the probability of the next word given an input sequence of words (or tokens). I am also nterested in how microtubules within cells self organize and proviide structure to the cell, as well as facilitate information passnig between organelles.            </p>
+            My current research is about training language models on the structure of language, rather than just computing the probability of the next word given an input sequence of words (or tokens). I am also nterested in how microtubules within cells self organize and proviide structure to the cell, as well as facilitate information passing between organelles.            </p>
           </CardContent>
         </Card>
       </motion.div>

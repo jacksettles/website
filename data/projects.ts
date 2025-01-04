@@ -1,10 +1,24 @@
 // data/projects.ts
 import { RiNextjsFill} from "react-icons/ri";
 import { SiApplearcade } from "react-icons/si";
-import { FaFootballBall } from "react-icons/fa";
+import { FaFootballBall, FaBook } from "react-icons/fa";
 import { IoImages } from "react-icons/io5";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
 
+async function convertMarkDown(desc: string) {
+  const processor = unified()
+    .use(remarkParse)
+    .use(remarkGfm)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeStringify);
+  const file =  processor.processSync(desc);
+  return String(file);
+}
 
 export interface Project {
   id: number;
@@ -13,6 +27,8 @@ export interface Project {
   icon: React.ComponentType<{ className?: string }>;
   technologies: string[];
   githubLink: string;
+  isPopup: boolean;
+  popupContent: Promise<string>;
 }
 
 export const projects: Project[] = [
@@ -23,6 +39,8 @@ export const projects: Project[] = [
     icon: RiNextjsFill,
     technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "shadcn/ui"],
     githubLink: "https://github.com/jacksettles/portfolio-website",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
   },
   {
     id: 2,
@@ -31,6 +49,8 @@ export const projects: Project[] = [
     icon: GiArtificialIntelligence,
     technologies: ["Python", "PyTorch", "Transformers", "CUDA", "HPC"],
     githubLink: "https://github.com/jacksettles/llm-kd",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
   },
   {
     id: 3,
@@ -39,6 +59,8 @@ export const projects: Project[] = [
     icon: FaFootballBall,
     technologies: ["Python", "Pandas", "PyTorch", "Scikit-learn", "Jupyter"],
     githubLink: "https://github.com/jacksettles/NFL-ML-Playground",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
   },
   {
     id: 4,
@@ -47,6 +69,8 @@ export const projects: Project[] = [
     icon: SiApplearcade,
     technologies: ["Java", "JavaFX"],
     githubLink: "https://github.com/jacksettles/Java-arcade",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
   },
   {
     id: 5,
@@ -54,6 +78,8 @@ export const projects: Project[] = [
     description: "Built a small CNN model using the CIFAR10 dataset as an introduction into image classification",
     icon: IoImages,
     technologies: ["Python", "PyTorch", "Torchvision", "HPC"],
-    githubLink: "https://github.com/jacksettles/CFAR10-CNN",
+    githubLink: "https://github.com/jacksettles/CIFAR10-CNN",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
   },
 ];
