@@ -38,7 +38,7 @@ export const projects: Project[] = [
     description: "A single-page application portfolio website built using Next.js, TailwindCSS, and shadcn/ui components.",
     icon: RiNextjsFill,
     technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "shadcn/ui"],
-    githubLink: "https://github.com/jacksettles/portfolio-website",
+    githubLink: "https://github.com/jacksettles/website",
     isPopup: false,
     popupContent: Promise.resolve(""),
   },
