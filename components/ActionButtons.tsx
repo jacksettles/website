@@ -20,7 +20,7 @@ const ActionButtons = () => (
         <FaCode className="mr-2" /> About Me
       </motion.button>
     </Link>
-    <a
+    {/* <a
       href="/pdf/resume.pdf" 
       target="_blank" 
       rel="noopener noreferrer"
@@ -32,7 +32,7 @@ const ActionButtons = () => (
       >
         <FaFileAlt className="mr-2" /> Resume
       </motion.button>
-    </a>
+    </a> */}
   </motion.div>
 );
 

@@ -30,7 +30,7 @@ const SkillsGrid = () => {
     { icon: <SiMlflow />, name: 'MLflow' },
     // { icon: <SiMongodb />, name: "MongoDB"},
     // { icon: <FaChartBar />, name: 'Power BI' },
-    { icon: <FaGithub />, name: 'Git' },
+    { icon: <FaGithub />, name: 'Github' },
     { icon: <FaDocker />, name: 'Docker'},
     // { icon: <SiKubernetes />, name: 'Kubernetes' },
     { icon: <SiJenkins />, name: 'Jenkins' },
