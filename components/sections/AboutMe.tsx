@@ -42,7 +42,7 @@ const AboutMe: React.FC = () => {
               <li><ImHeadphones className="inline-block mr-2" /> Listening to music. My favorites: Van Morrison, Beach House, Max Richter, Marvin Gaye, Peter Cat Recording Co., Khruangbin, Mulatu Astatke, Michael Kiwanuka, Sturgill Simpson, The National, Palace, Frank Ocean, Outkast, the Wu-Tang Clan, Denzel Curry, Kendrick Lamar, Vince Staples, J. Cole, Future, A$AP Rocky, Young Thug, JID, Mac Miller, SZA, Maggie Rogers, the Fugees.... I could go on forever</li>
             </ul>
             <p>
-            My current research is about training language models on the structure of language, rather than just computing the probability of the next word given an input sequence of words (or tokens). I am also nterested in how microtubules within cells self organize and proviide structure to the cell, as well as facilitate information passing between organelles.            </p>
+            My current research is about training language models on the structure of language, rather than just computing the probability of the next word given an input sequence of words (or tokens). I am also interested in how microtubules within cells self organize and proviide structure to the cell, as well as facilitate information passing between organelles.            </p>
           </CardContent>
         </Card>
       </motion.div>

@@ -154,21 +154,21 @@ would study philosophy in the first place. You would be right to point out that 
 that someone studies philosophy to get a specific job is misguided. Philosophy is a liberal art, one of the oldest in fact. The liberal arts have 
 nothing to do with politics, but rather are disciplines that should be studied freely in their own right. They are ends in and of themselves, rather
 than means to an end. I always felt like philosophy was a skill or an activity, not a subject on its own. It sharpens your reasoning skills and forces
-you to wrestle with complex and nuanced ideas that, frankly, very few people even question, whether out of fear or the fact that the ideas just never occur to them. 
+you to wrestle with complex and nuanced ideas that, frankly, very few people even question for one reason or another.
 
 ---
 ### Philosophy of Language
 
 #### 1. Ludwig Wittgenstein
 
-I started by reading Ludwig Wittgenstein's first book the __Tractatus-Logico-Philosophicus__. I actually picked this up at a bookstore at the beach in May of 2019.
-**It is not a beach read.** I have made that mistake on more than one occasion. In July of 2018 I thought I could get through Tolstoy's __War and Peace__ and Dostoevsky's
-__The Brothers Karamazov__ in 8 days at the beach... I got through 250 pages of the former and still haven't attempted the latter. I was young and incredibly naive. 
+I started by reading Ludwig Wittgenstein's first book, the __"Tractatus-Logico-Philosophicus"__. I actually picked this up at a bookstore at the beach in May of 2019.
+**It is not a beach read.** I have made that mistake on more than one occasion. In July of 2018 I thought I could get through Tolstoy's __"War and Peace"__ and Dostoevsky's
+__"The Brothers Karamazov"__ in 8 days at the beach... I got through 250 pages of the former and still haven't attempted the latter. I was young and incredibly naive. 
 I still am to a degree. 
 
 The Tractatus is opaque and mesmerizing all at once. Wittgenstein wrote it while serving in the trenches of **World War I**. He does not write like most philosophers with 
 long-form prose. There are no chapters. The Tractatus consists of numbered propositions and short paragraphs of a few sentences each. The numbers are also not 
-integers, but rather each point that builds off the previous ones serves as an extension of the previous numbers. So it starts with point 1, and goes on to 
+integers, but rather each point that builds off the previous ones serves as an extension of the previous numbers. So it starts with proposition 1, and goes on to 
 1.1, 1.11, 1.12, 1.13, then 1.2, etc. He begins with a proposition, or really an axiom, which means it is a given/self-evident assumption: "The world is all 
 that is the case". He follows this up with proposition 1.1: "The world is the totality of facts, not things". Throughout much of the text, he is laying the 
 groundwork for his metaphysics (i.e. the nature of the world). He goes on to assert that only states of affairs exist, which he uses to support his 
@@ -192,8 +192,8 @@ how abstract words that have no physical reference gain their meaning. I think o
 
 This seems obvious to the modern world-view; however, at the time, the notion that words and language as a whole had a **definite** and **determinate** sense was widely held.
 Wittgenstein articulates less of a thesis on language in PI, and more so constructs a web, where his thoughts are like sticky notes on a bulletin board interconnecting with each
-other. He introduces the idea of language-games, which are like particular modes of communicating that call for the use of context. He explicitly does not define a language-
-game because, well, not every mode of communicating has a preset context (a trained linguist might call this **pragmatics**). He also shows how words carry family 
+other. He introduces the idea of language-games, which are like particular modes of communicating that call for the use of context. He explicitly does not define a language-game 
+because, well, not every mode of communicating has a preset context (a trained linguist might call this **pragmatics**). He also shows how words carry family 
 resemblances to each other. Many people felt as though these ideas were purely conjecture at the time, but I think **computational linguistics** and **distributional 
 semantics** has given these ideas some credence in today's modern world. We see these family resemblances between words when investigating word embeddings with modern 
 language models. Some words are similar to each other because they share common/similar values in some of their dimensions. While it is hard to tell if the meanings of words
@@ -227,20 +227,21 @@ What about a "just" or "stable" government? Simple assertions like "that song is
 way to live life", or "that is a corrupt, evil government". We are moving into matters of morality, right and wrong. Is there a way to deductively prove that one thing is right and
 the other is wrong? An example that really hit home for me in TCR is when Cavell brings up the case of someone who laughs at physical pain the way we laugh at a joke.
 Their outward behavior seems almost the reverse of ours. What do you even say to that person at that point? How do you treat them? "If I say 'They are crazy' or 'incomprehensible'
-then that is not a fact but my fate for them" (p. 118). We are deeming that those people have met our criteria for "crazy" or "incomprehensible", and so we can "call" them that. The
-most daunting question that sits in front of me at this point is this: "How shall we treat that person?" Do we even acknowledge them as a person? I would argue that these
+then that is not a fact but my fate for them" (TCR, p. 118). We are deeming that those people have met our criteria for "crazy" or "incomprehensible", and so we can "call" them that. The
+most daunting question that sits in front of me at this point is this: How shall we treat that person? Do we even acknowledge them as a person? I would argue that these
 questions are just different forms of the fundamental question of ethics: "What __should__ I do now/How shall I act?".
 
 To Cavell, the problem of other minds isn't merely metaphysical or epistemological, but ethical. We tend to take it as a given that other minds exist. 
 On matters of what maybe a good song is, or a beautiful painting, we deem those to often be a matter of opinion on aesthetic value. When it comes to questions of 
-humanity though, such as what is just or humane, we often treat those as immutable facts of the universe, like the law of gravitational pull. Both of these, rest on 
+humanity though, such as what is just or humane, we often treat those as immutable facts of the universe, like the law of gravitational pull. Both of these rest on 
 what __our__ criteria are that allow us to proclaim that a song is beautiful, or a society is humane. I have had people object to me when I say this on the grounds 
 of "if everything is subjective, then how do we ever have stable societies?" "Our" in that sentence could mean an individual, a small group, or a greater polis (community). 
-The agreement in these criteria are what band people together. An artist has a fanbase that probably does not include everyone, but surely a subset of people. A society 
-has members that share even more common criteria that determine how it will operate. You see the difference in these criteria/values with different cultures. 
-The right way to act in one country might be reprehensible in another. What might seem like a mere assertion of fact only appears that way because of these common values.
-It's like an echo chamber, and not necessarily a bad one either - we need communities of likeminded people. But if we never confront "others", then our "assertions of fact"
-can start to become unchecked assumptions. I think of moments when I still encounter people whose understanding of recreational drugs hasn't been updated since the 1980s.
+The agreement in these criteria are what band people together along various different dimensions. An artist has a fanbase that probably does not include everyone, but 
+surely a subset of people. A society has members that share even more common criteria that determine how it will operate. You see the difference in these criteria/values 
+with different cultures. The right way to act in one country might be reprehensible in another. What might seem like a mere assertion of fact only appears that way because 
+of these common values. It's like an echo chamber, and not necessarily a bad one either - we need communities of likeminded people. But if we never confront "others", then 
+our "assertions of fact" can start to become unchecked assumptions. I think of moments when I still encounter people whose understanding of recreational drugs hasn't been 
+updated since the 1980s.
 
 On this view, the underlying notion in Cavell is that "valuing underwrites asserting" - "the idea that interest informs telling or talking generally" (p. 95).
 What you are willing and able to call or count as something determines what you can assert. When making an assertion to another person, we are assuming that 
@@ -248,19 +249,20 @@ our criteria are shared and that communication may take place. I am certain we h
 we realize that we do not share all criteria together. It shows us how shaky the grounds of communication, and therefore relationships, actually are.
 
 A real world example I encountered came as I was teaching group fitness classes at Orangetheory Fitness. I would tell people how to do an exercise verbally while simultaneously
-showing them. I then saw someone not performing it correctly (or what I deemed to be incorrect). I went to correct them, and I told them "extend your elbows". The person 
+showing them. One day I saw someone not performing an exercise correctly (or what I deemed to be correct). I went to correct them, and I told them "extend your elbows". The person 
 kept bending their elbows. I said straighten your arms. No dice. I showed them what they were doing vs. what I wanted them to do. Still nothing. At this point I was 
 incredibly frustrated. It felt like they just weren't listening. I told them it looked better, and just walked away cussing under my breath. Then I stopped and thought 
 for a minute: I have been an athlete my whole life. Knowing how to move my body in space is largely a given for me. This person literally told me before that workout 
 that they had never lifted a weight before. So their criteria for what counts as "extending their arms" may be entirely different from mine, if they have any criteria at 
 all (it may not have ever been a thought). This happened often. Sometimes I would correct them easily. Sometimes they would tell me "I know, but that way hurts, so I 
 modified it". These are moments when I realized that my criteria did not match theirs. The question of how I would treat them after this always sat heavy on me. Sometimes
-I would think "Okay, but that isn't doing anything" - "It might not be doing anything for the muscles the original exercise is supposed to work, but at least these people
-are moving, and **that** might "count" as doing something to them".
+I would think "Okay, but that isn't doing anything" - It might not be doing anything for the muscles the original exercise is supposed to work, but at least these people
+are moving, and **that** might 'count' as doing something to them. I'd like to think this perspective made me a more patient coach and teacher. My goals from then on were to
+always meet athletes on their terms, while simultaneously trying to bring them into ours.
 
-Wittgenstein and Cavell were deeply concerned with how language is learned/acquired. Wittgenstein used examples like continuing the series of 2,4,6,8, etc., 
-but what if one fails to catch on? Cavell provides an analogue to this when his daughter is learning different words. She points to their cat and says 
-"kitty", so he thinks she has learned it, until later she points to a blanket and says "kitty" as well. Maybe she has only learned what we might call "soft" or "fluffy". She 
+Wittgenstein and Cavell were deeply concerned with how language is learned/acquired. Wittgenstein used examples like continuing the series of 2,4,6,8, etc. But what if one 
+fails to catch on? Cavell provides an analogue to this when his daughter is learning different words. She points to their cat and says 
+"kitty". So, he thinks she has learned what a kitty is, until later she points to a blanket and says "kitty" as well. Maybe she has only learned what we might call "soft" or "fluffy". She 
 then picks up a bill in the mail and says "you have a letter". When he is watching coverage of the Vietnam conflict or the 1968 Democratic National Convention, 
 she asks "what show are you watching". Cavell then notes that there are conversations she is not ready to have, like how we as a society cannot have certain 
 conversations because we have failed to bring our criteria to each other to have a coherent discussions together. I will end on one of my favorite excerpts from part I of TCR:
