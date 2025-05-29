@@ -12,15 +12,15 @@ export const educations: EducationField[] = [
     {
         university: "University of Georgia, Athens, GA",
         degree: "Doctor of Philosophy in Artificial Intelligence",
-        duration: "Jan 2025 - TBD",
-        year: "2025-TBD",
+        duration: "Jan 2025 - May 2025 (Incomplete)",
+        year: "2025-2025",
         logo: UGAIcon
     },
     {
         university: "University of Georgia, Athens, GA",
         degree: "Master of Science in Artificial Intelligence",
-        duration: "Aug 2022 - Dec 2024",
-        year: "2022-2024",
+        duration: "Aug 2022 - May 2025",
+        year: "2022-2025",
         logo: UGAIcon
     },
     {

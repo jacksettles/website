@@ -18,13 +18,15 @@ const Terminal = () => {
   const codeLines: CodeLines = useMemo(() => ({
     python: [
       'print("Hi there 👋 My name is Jack Settles")',
-      'print("I am a PhD student at the Universty of Georgia studying AI")',
-      'print("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.")'
+      'print("I am graduate of the University of Georgia\'s Institute for Artificial Intelligence. I received my MSAI in 2025. I also briefly began my PhD in AI during my time there.")',
+      'print("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.")',
+      'print("Last updated - May 2025")'
     ],
     javascript: [
       'console.log("Hi there 👋 My name is Jack Settles");',
-      'console.log("I am a PhD student at the Universty of Georgia studying AI");',
-      'console.log("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.");'
+      'console.log("I am graduate of the University of Georgia\'s Institute for Artificial Intelligence. I received my MSAI in 2025. I also briefly began my PhD in AI during my time there.");',
+      'console.log("I consider myself a machine learning engineer, a computational linguist, and a philosopher with experience building and deploying machine learning models as APIs.");',
+      'console.log("Last updated - May 2025");'
     ]
   }), []);
 

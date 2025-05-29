@@ -12,7 +12,7 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 import UGAIcon from '@/components/icons/UGAIcon';
-import { internshipWorkAtBI, workAtOTF, workExpAtUGA, curoWorkAtUGA, internshipAtSSGA} from './jobDesc';
+import { diceLabGra, internshipWorkAtBI, workAtOTF, workExpAtUGA, curoWorkAtUGA, internshipAtSSGA} from './jobDesc';
 import { RiNextjsFill } from 'react-icons/ri';
 import BILogo from '@/components/icons/BILogo';
 import OTFIcon from '@/components/icons/OTFIcon';
@@ -46,6 +46,20 @@ async function convertMarkDown(desc: string){
 
 export const workExperiences: WorkExperience[] = [
 {
+    company: "University of Georgia",
+    position: "Graduate Research Assistant",
+    duration: "Jan 2025 - Jun 2025",
+    year: "2025",
+    description: convertMarkDown(diceLabGra),
+    skills: [
+      { name: "Python", icon: FaPython},
+      { name: "PyTorch", icon: SiPytorch},
+      { name: "Research", icon: GiArchiveResearch },
+      { name: "Data Visualization", icon: SiSimpleanalytics},
+    ],
+    logo: UGAIcon,
+  },
+  {
     company: "Boehringer Ingelheim",
     position: "IT Advanced Applications Co-op",
     duration: "Jul 2024 - Dec 2024",

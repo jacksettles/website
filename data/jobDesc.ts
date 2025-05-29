@@ -1,3 +1,19 @@
+export const diceLabGra = `
+## Overview
+
+---
+
+I spent a semester working in a research lab for the College of Engineering at UGA. The primary project I worked on was applying machine learning models
+to better understand microtubule (MT) dynamic instability. MTs are essentially the cytoskeleton inside eukaryotic cells that provide structure to the cell.
+They facilitate in the movement of organelles around the cell, as well as during mytosis when chromosomes split apart into new cells. Their ability to assemble
+and disassemble seemingly on their own has led some (Stuart Hameroff comes to mind first) to hypothesize that they (or the tubulins that make up them) have 
+some kind of embedded intelligence within them.
+
+Most of my time in this lab was spent collecting and processing MT data to be used in sequential deep-learning models. There is not a lot of readily available
+data on MTs to my knowledge, so we used a simulator that a previous student built. Since this research is still ongoing, there is not much that I can disclose
+about it at this time.
+`
+
 export const internshipWorkAtBI = `
 ## Overview
 
@@ -148,13 +164,23 @@ During the summer of 2020, in the midst of the Covid-19 pandemic, I conducted fu
 still in a tangentially related field, at the time I had my heart set on going to grad school purely for philosophy, so I chose to do this
 research to serve as my writing sample for graduate school applications. It turned into something bigger than just that for me.
 
-I expect very few people to understand this part of my resume, whether that is because you don't understand what I mean by some of the topics,
-or you don't understand why I would include it here seeing as I am a machine learning engineer now, or you just don't understand why someone
+I expect very few people to understand this part of my resume. That may be because you don't understand what I mean by some of the topics.
+Maybe you don't understand why I would include it here seeing as I am a machine learning engineer now. Or maybe you just don't understand why someone
 would study philosophy in the first place. You would be right to point out that there are not many jobs in philosophy; however, the assumption 
 that someone studies philosophy to get a specific job is misguided. Philosophy is a liberal art, one of the oldest in fact. The liberal arts have 
 nothing to do with politics, but rather are disciplines that should be studied freely in their own right. They are ends in and of themselves, rather
-than means to an end. I always felt like philosophy was a skill or an activity, not a subject on its own. It sharpens your reasoning skills and forces
-you to wrestle with complex and nuanced ideas that, frankly, very few people even question for one reason or another.
+than means to an end. I always felt like philosophy was a skill or an activity, not solely a subject on its own. It sharpens your reasoning skills and forces
+you to wrestle with complex and nuanced ideas that, frankly, very few people even question for one reason or another. The best off-the-cuff explanation
+I once heard about what philosophy is (other than the literal translation of  "love of wisdom") was this: philosophy is not in the business of
+answering questions, but of questioning answers. A liberal arts education forces you to read and write a lot. What this amounts to is mastering
+language, rhetoric, arguments, and ultimately becoming more articulate. I firmly believe that if one wants to find any one thing to take away from education at all,
+it is to become more articulate. Technical skills evolve as technology evolves. It is important to learn these, no doubt, but when you are applying for a job, 
+you ultimately have to be able to convince the hiring manager about why they should hire you. This is an argument. At that moment, what is more important is knowing
+your skillset and what value you can bring to the team, while also knowing your shortcomings. If you can articulate this to them, it shows you are self-aware. It shows
+that you know where you stand, and generally where you want to go. This being-able-to-locate-oneself w.r.t. one's surroundings is crucial for answering the 
+fundamental question of ethics: what should I do? Before any plan can be created, this needs to be determined first. Philosophy helped me understand this deeply, particularly
+through Ludwig Wittgenstein and Stanley Cavell's reading of Wittgenstein. For Cavell, self-knowledge provides the basis for morality, and this was ultimately the topic
+of this thesis.
 
 ---
 ### Philosophy of Language
