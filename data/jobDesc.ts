@@ -5,13 +5,14 @@ export const diceLabGra = `
 
 I spent a semester working in a research lab for the College of Engineering at UGA. The primary project I worked on was applying machine learning models
 to better understand microtubule (MT) dynamic instability. MTs are essentially the cytoskeleton inside eukaryotic cells that provide structure to the cell.
-They facilitate in the movement of organelles around the cell, as well as during mytosis when chromosomes split apart into new cells. Their ability to assemble
+They facilitate in the movement of organelles around the cell, as well as being responsible for splitting chromosomes apart during mitosis. Their ability to assemble
 and disassemble seemingly on their own has led some (Stuart Hameroff comes to mind first) to hypothesize that they (or the tubulins that make up them) have 
 some kind of embedded intelligence within them.
 
 Most of my time in this lab was spent collecting and processing MT data to be used in sequential deep-learning models. There is not a lot of readily available
 data on MTs to my knowledge, so we used a simulator that a previous student built. Since this research is still ongoing, there is not much that I can disclose
-about it at this time.
+about it at this time. I will say, though: I was pleasantly surprised to see how well some of the models performed on classifying states of MTs, especially
+given that our data contained thousands of state representations of the MTs over time.
 `
 
 export const internshipWorkAtBI = `
