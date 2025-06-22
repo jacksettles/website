@@ -1,8 +1,9 @@
 // data/projects.ts
 import { RiNextjsFill} from "react-icons/ri";
-import { SiApplearcade } from "react-icons/si";
+import { SiApplearcade, SiOllama } from "react-icons/si";
 import { FaFootballBall, FaBook } from "react-icons/fa";
 import { IoImages } from "react-icons/io5";
+import { FaDna } from "react-icons/fa6";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
@@ -66,7 +67,7 @@ export const projects: Project[] = [
     id: 4,
     title: "Llama Attention Head Pruning",
     description: "Pruning attention heads in Llama 3 variants to assess the effects on accuracy, model size, and latency/throughput.",
-    icon: GiArtificialIntelligence,
+    icon: SiOllama,
     technologies: ["Python", "PyTorch", "Transformers", "CUDA", "HPC"],
     githubLink: "https://github.com/jacksettles/llama_head_pruning",
     isPopup: false,
@@ -76,7 +77,7 @@ export const projects: Project[] = [
     id: 5,
     title: "Modeling Microtubule Dynamic Instability",
     description: "Using sequence models to learn the rules of microtubule dynamic instability.",
-    icon: GiArtificialIntelligence,
+    icon: FaDna,
     technologies: ["Python", "PyTorch", "Transformers", "CUDA", "HPC"],
     githubLink: "https://github.com/jacksettles/mt_modeling",
     isPopup: false,
