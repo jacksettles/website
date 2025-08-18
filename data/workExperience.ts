@@ -1,10 +1,11 @@
 // data/workExperience.ts
-import { FaPython, FaBook, FaGraduationCap, FaFileExcel } from 'react-icons/fa';
+import { FaAws, FaPython, FaBook, FaGraduationCap, FaFileExcel } from 'react-icons/fa';
 import { GiArchiveResearch } from "react-icons/gi";
 import { FaMeta } from "react-icons/fa6";
 import { IoFitnessSharp } from "react-icons/io5";
 import { IoMdFitness } from "react-icons/io";
-import { SiOllama, SiScikitlearn, SiSimpleanalytics, SiDocker, SiJenkins, SiLangchain, SiOpenai, SiPandas, SiPytorch, SiFastapi, SiStreamlit } from 'react-icons/si';
+import { SiGooglecloud, SiOllama, SiScikitlearn, SiSimpleanalytics, SiDocker, SiJenkins,
+  SiLangchain, SiOpenai, SiPandas, SiPytorch, SiFastapi, SiStreamlit } from 'react-icons/si';
 import React from 'react';
 import rehypeStringify from 'rehype-stringify'
 import remarkGfm from 'remark-gfm'
@@ -12,11 +13,14 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 import UGAIcon from '@/components/icons/UGAIcon';
-import { diceLabGra, internshipWorkAtBI, workAtOTF, workExpAtUGA, curoWorkAtUGA, internshipAtSSGA} from './jobDesc';
+import { azCards, propArchives, diceLabGra, internshipWorkAtBI, workAtOTF, workExpAtUGA, curoWorkAtUGA, internshipAtSSGA} from './jobDesc';
 import { RiNextjsFill } from 'react-icons/ri';
 import BILogo from '@/components/icons/BILogo';
 import OTFIcon from '@/components/icons/OTFIcon';
 import SSGALogo  from '@/components/icons/SSGAlogo';
+import PALogo from '@/components/icons/PAIcon';
+import AZCLogo from '@/components/icons/AZCardsLogo';
+
 
 export interface Skill {
   name: string;
@@ -45,6 +49,36 @@ async function convertMarkDown(desc: string){
 
 
 export const workExperiences: WorkExperience[] = [
+{
+    company: "Arizona Cardinals Football Club",
+    position: "Football Analytics Intern",
+    duration: "Jul 2025 - Aug 2025",
+    year: "2025",
+    description: convertMarkDown(azCards),
+    skills: [
+      { name: "Python", icon: FaPython},
+      { name: "Pandas", icon: SiPandas},
+      { name: "PyTorch", icon : SiPytorch},
+      { name: "Scikit-learn", icon: SiScikitlearn},
+      { name: "Data Visualization", icon: SiSimpleanalytics},
+    ],
+    logo: AZCLogo,
+},
+{
+    company: "Property Archives LLC",
+    position: "AI Consultant",
+    duration: "May 2025 - Present",
+    year: "2025",
+    description: convertMarkDown(propArchives),
+    skills: [
+      { name: "Python", icon: FaPython},
+      { name: "AWS", icon: FaAws},
+      { name: "GCP", icon: SiGooglecloud},
+      { name: "PyTorch", icon: SiPytorch},
+      { name: "Docker", icon: SiDocker},
+    ],
+    logo: PALogo,
+},
 {
     company: "University of Georgia",
     position: "Graduate Research Assistant",

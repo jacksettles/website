@@ -1,3 +1,26 @@
+export const azCards = `
+# Overview
+
+I spent the 2025 training camp and preseason interning with the Arizona Cardinals Football Club of the
+National Football League. There I worked as a football analytics intern where I focused on deriving metrics
+for player evaluation and football strategy using spatio-temporal player tracking data. This consisted of modifying
+my existing continuous blitz prediction model, as well as looking at and quantifying QB decision making on pass dropbacks.
+`
+
+export const propArchives = `
+## Overview
+
+Currently I am working as a part time contractor for a small company in the environmental due diligence space.
+Essentially, this industry's objective is gathering data and building out reports on real estate properties from
+an environmental stance. Any developing property must go through a phase I environmental assessment, where the history
+of the property is accounted for. If potential risks are found, such as the previous existence of a nearby gas station
+or dry cleaner, then a phase II assessment must be done to assess the water, soil, etc.
+
+Currently I am assisting in obtaining and filtering data at scale. Lots of these records exist in dispersed/unstructured sources.
+So my aim is to consolidate much of this data together. This involves traditional NLP tools like regular expressions,
+all the way to more advanced computer vision tools like OCR and object detection.
+`
+
 export const diceLabGra = `
 ## Overview
 

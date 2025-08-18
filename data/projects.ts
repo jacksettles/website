@@ -65,6 +65,16 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Continuous Blitz Predictions w/ Deep Sequence Models",
+    description: "Using Mamba models (Gu & Dao, 2024)",
+    icon: FaFootballBall,
+    technologies: ["Python", "Pandas", "PyTorch", "SQLite"],
+    githubLink: "https://github.com/jacksettles/blitz_predict",
+    isPopup: false,
+    popupContent: Promise.resolve(""),
+  },
+  {
+    id: 5,
     title: "Llama Attention Head Pruning",
     description: "Pruning attention heads in Llama 3 variants to assess the effects on accuracy, model size, and latency/throughput.",
     icon: SiOllama,
@@ -74,7 +84,7 @@ export const projects: Project[] = [
     popupContent: Promise.resolve(""),
   },
   {
-    id: 5,
+    id: 6,
     title: "Modeling Microtubule Dynamic Instability",
     description: "Using sequence models to learn the rules of microtubule dynamic instability.",
     icon: FaDna,
@@ -84,7 +94,7 @@ export const projects: Project[] = [
     popupContent: Promise.resolve(""),
   },
   {
-    id: 6,
+    id: 7,
     title: "Java Arcade",
     description: "An arcade style Asteroids video game where users play as a spaceship flying around shootng at asteroids. The game gets harder every time the user clears the screen of asteroids.",
     icon: SiApplearcade,
@@ -94,7 +104,7 @@ export const projects: Project[] = [
     popupContent: Promise.resolve(""),
   },
   {
-    id: 7,
+    id: 8,
     title: "Image Classification",
     description: "Built a small CNN model using the CIFAR10 dataset as an introduction into image classification",
     icon: IoImages,
