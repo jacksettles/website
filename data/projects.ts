@@ -66,7 +66,7 @@ export const projects: Project[] = [
   {
     id: 4,
     title: "Continuous Blitz Predictions w/ Deep Sequence Models",
-    description: "Using Mamba models (Gu & Dao, 2024)",
+    description: "Using Mamba models (Gu & Dao, 2024) to predict which defenders are going to blitz on a play. Predictions are made every 100ms, with visualizations to accompany play analysis.",
     icon: FaFootballBall,
     technologies: ["Python", "Pandas", "PyTorch", "SQLite"],
     githubLink: "https://github.com/jacksettles/blitz_predict",

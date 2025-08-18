@@ -27,7 +27,7 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-              My background is in philosophy and cognitive science where I focused on studying language from as many different perspectives as possible. I am deeply passionate about how language can encode meaning, and how that meaning is conveyed from one person to the next. My research focuses on language modeling with a goal of training LLMs to understand language in a way that approximates how humans acquire language.
+              My background is in philosophy and cognitive science where I focused on studying language from as many different perspectives as possible. I am deeply passionate about how language can encode meaning, and how that meaning is conveyed from one person to the next. My academic research focuses on language modeling with a goal of training LLMs to understand language in a way that approximates how humans acquire language.
             </p>
             <p>
               <FaCode className="inline-block mr-2" /> 
